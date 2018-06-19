@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>Presione para calcular promedio</h2>
+	<br>
+	<input type="submit" value="Calcular" onclick="promedio();">
+<script type="text/javascript">
+	function promedio(n1,n2,n3){
+
+n1 = prompt("Ingrese Primer valor");
+n2 = prompt("Ingrese Segundo valor");
+n3 = prompt("Ingrese Tercer valor");
+var promedio = (parseInt(n1)+parseInt(n2)+parseInt(n2))/3;
+
+	document.getElementById('result').innerHTML='promedio:'+promedio;
+	}
+
+
+</script>
+<div id="result"></div>
+</body>
+</html>
